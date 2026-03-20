@@ -1,7 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:quantai/models/market_regime.dart",
-    "package:quantai/core/analysis/session_detector.dart"
-  ]
-}

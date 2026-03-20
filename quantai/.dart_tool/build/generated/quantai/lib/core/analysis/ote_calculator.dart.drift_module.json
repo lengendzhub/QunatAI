@@ -1,6 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:quantai/models/ict_features.dart"
-  ]
-}

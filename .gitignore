@@ -1,0 +1,17 @@
+# Flutter SDK clone (local only)
+.flutter-sdk/
+
+# Dart/Flutter generated and local caches
+**/.dart_tool/
+**/build/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.metadata
+
+# Coverage artifacts
+**/coverage/
+
+# IDE
+.vscode/
+.idea/

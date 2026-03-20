@@ -1,9 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:flutter/services.dart",
-    "package:logging/logging.dart",
-    "package:onnxruntime/onnxruntime.dart",
-    "package:quantai/core/ai/model_config.dart"
-  ]
-}

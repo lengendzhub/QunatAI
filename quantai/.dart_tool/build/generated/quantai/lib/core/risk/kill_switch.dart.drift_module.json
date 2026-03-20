@@ -1,7 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:quantai/core/notifications/notification_service.dart",
-    "package:quantai/core/storage/daos/settings_dao.dart"
-  ]
-}

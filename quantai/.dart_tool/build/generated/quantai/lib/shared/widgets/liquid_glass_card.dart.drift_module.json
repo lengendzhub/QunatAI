@@ -1,7 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:flutter/material.dart",
-    "package:quantai/core/theme/quant_theme_extension.dart"
-  ]
-}

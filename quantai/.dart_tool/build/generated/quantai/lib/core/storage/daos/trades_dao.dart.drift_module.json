@@ -1,8 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:drift/drift.dart",
-    "package:quantai/models/trade.dart",
-    "package:quantai/core/storage/database.dart"
-  ]
-}

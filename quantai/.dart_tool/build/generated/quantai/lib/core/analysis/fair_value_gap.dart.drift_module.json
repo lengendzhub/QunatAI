@@ -1,7 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:quantai/models/candle.dart",
-    "package:quantai/models/ict_features.dart"
-  ]
-}

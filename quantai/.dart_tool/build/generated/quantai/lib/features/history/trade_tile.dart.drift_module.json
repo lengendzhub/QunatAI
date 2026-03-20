@@ -1,8 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:flutter/material.dart",
-    "package:quantai/models/trade.dart",
-    "package:quantai/shared/widgets/liquid_glass_card.dart"
-  ]
-}

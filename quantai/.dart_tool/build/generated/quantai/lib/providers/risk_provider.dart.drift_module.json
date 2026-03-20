@@ -1,9 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:flutter_riverpod/flutter_riverpod.dart",
-    "package:quantai/core/risk/risk_manager.dart",
-    "package:quantai/providers/settings_provider.dart",
-    "package:quantai/providers/trades_provider.dart"
-  ]
-}

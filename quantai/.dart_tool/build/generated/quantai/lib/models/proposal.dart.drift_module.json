@@ -1,7 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:freezed_annotation/freezed_annotation.dart",
-    "package:quantai/models/market_regime.dart"
-  ]
-}

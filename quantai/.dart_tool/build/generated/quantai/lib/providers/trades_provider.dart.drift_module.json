@@ -1,9 +1,0 @@
-{
-  "elements": {},
-  "imports": [
-    "package:flutter_riverpod/flutter_riverpod.dart",
-    "package:quantai/core/storage/daos/trades_dao.dart",
-    "package:quantai/models/trade.dart",
-    "package:quantai/providers/settings_provider.dart"
-  ]
-}
