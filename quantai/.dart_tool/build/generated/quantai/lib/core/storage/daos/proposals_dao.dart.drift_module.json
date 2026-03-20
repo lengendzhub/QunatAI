@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:drift/drift.dart",
+    "package:quantai/models/market_regime.dart",
+    "package:quantai/models/proposal.dart",
+    "package:quantai/core/storage/database.dart"
+  ]
+}

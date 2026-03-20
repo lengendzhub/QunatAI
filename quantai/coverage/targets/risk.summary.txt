@@ -1,0 +1,6 @@
+Target: risk
+Pattern: ^SF:.*lib/core/risk/
+Lines Found (LF): 15
+Lines Hit (LH): 15
+Coverage: 100.00%
+Output: coverage/targets/risk.lcov.info

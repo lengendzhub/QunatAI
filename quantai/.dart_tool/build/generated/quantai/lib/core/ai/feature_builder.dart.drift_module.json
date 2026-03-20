@@ -1,0 +1,11 @@
+{
+  "elements": {},
+  "imports": [
+    "package:quantai/models/candle.dart",
+    "package:quantai/models/ict_features.dart",
+    "package:quantai/models/market_regime.dart",
+    "package:quantai/core/utils/candle_utils.dart",
+    "package:quantai/core/utils/math_utils.dart",
+    "package:quantai/core/ai/model_config.dart"
+  ]
+}

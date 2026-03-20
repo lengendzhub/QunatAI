@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:quantai/core/router/app_router.dart",
+    "package:quantai/core/theme/app_theme.dart"
+  ]
+}

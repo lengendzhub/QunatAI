@@ -1,0 +1,20 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$TickImpl _$$TickImplFromJson(Map<String, dynamic> json) => _$TickImpl(
+      symbol: json['symbol'] as String,
+      bid: (json['bid'] as num).toDouble(),
+      ask: (json['ask'] as num).toDouble(),
+      spread: (json['spread'] as num).toDouble(),
+      timestamp: DateTime.parse(json['timestamp'] as String),
+    );
+
+Map<String, dynamic> _$$TickImplToJson(_$TickImpl instance) =>
+    <String, dynamic>{
+      'symbol': instance.symbol,
+      'bid': instance.bid,
+      'ask': instance.ask,
+      'spread': instance.spread,
+      'timestamp': instance.timestamp.toIso8601String(),
+    };

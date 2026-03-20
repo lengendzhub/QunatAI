@@ -1,0 +1,10 @@
+{
+  "elements": {},
+  "imports": [
+    "package:quantai/models/tick.dart",
+    "package:quantai/models/trade.dart",
+    "package:quantai/core/broker/base_broker.dart",
+    "package:quantai/core/notifications/notification_service.dart",
+    "package:quantai/core/storage/daos/trades_dao.dart"
+  ]
+}

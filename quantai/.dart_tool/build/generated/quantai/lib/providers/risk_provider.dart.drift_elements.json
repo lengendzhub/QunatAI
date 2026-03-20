@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:flutter_riverpod/flutter_riverpod.dart","transitive":false},{"uri":"package:quantai/core/risk/risk_manager.dart","transitive":false},{"uri":"package:quantai/providers/settings_provider.dart","transitive":false},{"uri":"package:quantai/providers/trades_provider.dart","transitive":false}],"elements":[]}

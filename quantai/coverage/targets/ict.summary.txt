@@ -1,0 +1,6 @@
+Target: ict
+Pattern: ^SF:.*lib/core/analysis/
+Lines Found (LF): 218
+Lines Hit (LH): 182
+Coverage: 83.49%
+Output: coverage/targets/ict.lcov.info

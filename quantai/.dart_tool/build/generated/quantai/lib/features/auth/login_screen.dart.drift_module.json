@@ -1,0 +1,12 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:url_launcher/url_launcher.dart",
+    "package:quantai/shared/widgets/ambient_background.dart",
+    "package:quantai/shared/widgets/liquid_glass_card.dart",
+    "package:quantai/shared/widgets/spring_button.dart",
+    "package:quantai/features/auth/auth_provider.dart"
+  ]
+}

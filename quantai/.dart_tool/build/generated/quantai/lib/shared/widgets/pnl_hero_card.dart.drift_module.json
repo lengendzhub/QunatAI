@@ -1,0 +1,10 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:quantai/providers/account_provider.dart",
+    "package:quantai/shared/widgets/count_up_text.dart",
+    "package:quantai/shared/widgets/liquid_glass_card.dart"
+  ]
+}

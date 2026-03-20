@@ -1,0 +1,8 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:go_router/go_router.dart",
+    "package:quantai/shared/widgets/liquid_glass_card.dart"
+  ]
+}

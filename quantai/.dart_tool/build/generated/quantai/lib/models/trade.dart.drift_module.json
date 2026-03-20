@@ -1,0 +1,8 @@
+{
+  "elements": {},
+  "imports": [
+    "package:freezed_annotation/freezed_annotation.dart",
+    "package:quantai/models/execution_result.dart",
+    "package:quantai/models/proposal.dart"
+  ]
+}

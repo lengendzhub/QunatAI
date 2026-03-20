@@ -1,0 +1,6 @@
+{
+  "elements": {},
+  "imports": [
+    "package:quantai/models/market_regime.dart"
+  ]
+}

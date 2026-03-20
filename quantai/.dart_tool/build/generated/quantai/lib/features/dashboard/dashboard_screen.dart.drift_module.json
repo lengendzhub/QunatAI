@@ -1,0 +1,10 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:quantai/shared/widgets/ambient_background.dart",
+    "package:quantai/shared/widgets/bottom_nav.dart",
+    "package:quantai/shared/widgets/live_dot.dart",
+    "package:quantai/shared/widgets/pnl_hero_card.dart"
+  ]
+}

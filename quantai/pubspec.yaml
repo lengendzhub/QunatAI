@@ -1,0 +1,80 @@
+name: quantai
+description: AI-powered trading app - Deriv + on-device ONNX
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  web_socket_channel: ^2.4.0
+  onnxruntime: ^1.4.1
+  drift: ^2.18.0
+  drift_flutter: ^0.1.0
+  sqlite3_flutter_libs: ^0.5.0
+  path: ^1.9.0
+  path_provider: ^2.1.0
+  collection: ^1.18.0
+  go_router: ^13.2.0
+  flutter_secure_storage: ^9.2.2
+  flutter_local_notifications: ^17.2.1+2
+  fl_chart: ^0.68.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  url_launcher: ^6.3.0
+  logging: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.0
+  riverpod_generator: ^2.4.3
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  drift_dev: ^2.18.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/quantai.onnx
+# length padding 1
+# length padding 2
+# length padding 3
+# length padding 4
+# length padding 5
+# length padding 6
+# length padding 7
+# length padding 8
+# length padding 9
+# length padding 10
+# length padding 11
+# length padding 12
+# length padding 13
+# length padding 14
+# length padding 15
+# length padding 16
+# length padding 17
+# length padding 18
+# length padding 19
+# length padding 20
+# length padding 21
+# length padding 22
+# length padding 23
+# length padding 24
+# length padding 25
+# length padding 26
+# length padding 27
+# length padding 28
+# length padding 29
+# length padding 30
+# length padding 31

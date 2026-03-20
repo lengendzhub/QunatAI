@@ -1,0 +1,457 @@
+{
+  "elements": {
+    "trades_table": {
+      "id": {
+        "library_uri": "package:quantai/core/storage/tables/trades_table.dart",
+        "name": "trades_table"
+      },
+      "declaration": {
+        "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+        "offset": 87,
+        "name": "TradesTable"
+      },
+      "references": [],
+      "type": "table",
+      "columns": [
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "id",
+          "nameInDart": "id",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 132,
+            "name": "id"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "symbol",
+          "nameInDart": "symbol",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 165,
+            "name": "symbol"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "direction",
+          "nameInDart": "direction",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 202,
+            "name": "direction"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "entry_price",
+          "nameInDart": "entryPrice",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 242,
+            "name": "entryPrice"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": true,
+          "nameInSql": "exit_price",
+          "nameInDart": "exitPrice",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 283,
+            "name": "exitPrice"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "stop_loss",
+          "nameInDart": "stopLoss",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 334,
+            "name": "stopLoss"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "take_profit",
+          "nameInDart": "takeProfit",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 373,
+            "name": "takeProfit"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "lot_size",
+          "nameInDart": "lotSize",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 414,
+            "name": "lotSize"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": false,
+          "nameInSql": "opened_at",
+          "nameInDart": "openedAt",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 456,
+            "name": "openedAt"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": true,
+          "nameInSql": "closed_at",
+          "nameInDart": "closedAt",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 503,
+            "name": "closedAt"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "pnl_money",
+          "nameInDart": "pnlMoney",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 557,
+            "name": "pnlMoney"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "pnl_pips",
+          "nameInDart": "pnlPips",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 629,
+            "name": "pnlPips"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "risk_reward_actual",
+          "nameInDart": "riskRewardActual",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 700,
+            "name": "riskRewardActual"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "contract_id",
+          "nameInDart": "contractId",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 780,
+            "name": "contractId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "unique"
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "status",
+          "nameInDart": "status",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 830,
+            "name": "status"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "limit_text_length",
+              "min_length": 3,
+              "max_length": 24
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "regime",
+          "nameInDart": "regime",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 895,
+            "name": "regime"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "session",
+          "nameInDart": "session",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 932,
+            "name": "session"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "confidence",
+          "nameInDart": "confidence",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/trades_table.dart",
+            "offset": 970,
+            "name": "confidence"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        }
+      ],
+      "existing_data_class": null,
+      "table_constraints": [
+        {
+          "type": "primary_key",
+          "columns": [
+            "id"
+          ]
+        }
+      ],
+      "custom_parent_class": null,
+      "interfaces_for_row_class": [],
+      "fixed_entity_info_name": null,
+      "base_dart_name": "TradesTable",
+      "row_class_name": "TradesTableData",
+      "companion_class_name": null,
+      "without_rowid": false,
+      "strict": false,
+      "write_default_constraints": true,
+      "custom_constraints": [],
+      "attached_indices": []
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart"
+  ]
+}

@@ -1,0 +1,80 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    avoid_print: true
+    always_declare_return_types: true
+    annotate_overrides: true
+    avoid_dynamic_calls: true
+    avoid_empty_else: true
+    avoid_relative_lib_imports: true
+    avoid_unnecessary_containers: true
+    cascade_invocations: true
+    directives_ordering: true
+    join_return_with_assignment: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_final_fields: true
+    prefer_final_locals: true
+    sort_constructors_first: true
+    sort_unnamed_constructors_first: true
+    unnecessary_lambdas: true
+# length padding 1
+# length padding 2
+# length padding 3
+# length padding 4
+# length padding 5
+# length padding 6
+# length padding 7
+# length padding 8
+# length padding 9
+# length padding 10
+# length padding 11
+# length padding 12
+# length padding 13
+# length padding 14
+# length padding 15
+# length padding 16
+# length padding 17
+# length padding 18
+# length padding 19
+# length padding 20
+# length padding 21
+# length padding 22
+# length padding 23
+# length padding 24
+# length padding 25
+# length padding 26
+# length padding 27
+# length padding 28
+# length padding 29
+# length padding 30
+# length padding 31
+# length padding 32
+# length padding 33
+# length padding 34
+# length padding 35
+# length padding 36
+# length padding 37
+# length padding 38
+# length padding 39
+# length padding 40
+# length padding 41
+# length padding 42
+# length padding 43
+# length padding 44
+# length padding 45
+# length padding 46
+# length padding 47
+# length padding 48
+# length padding 49
+# length padding 50
+# length padding 51

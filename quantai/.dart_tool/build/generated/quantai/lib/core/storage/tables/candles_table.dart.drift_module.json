@@ -1,0 +1,247 @@
+{
+  "elements": {
+    "candles_table": {
+      "id": {
+        "library_uri": "package:quantai/core/storage/tables/candles_table.dart",
+        "name": "candles_table"
+      },
+      "declaration": {
+        "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+        "offset": 88,
+        "name": "CandlesTable"
+      },
+      "references": [],
+      "type": "table",
+      "columns": [
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "id",
+          "nameInDart": "id",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 133,
+            "name": "id"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "primary",
+              "is_auto_increment": true
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "symbol",
+          "nameInDart": "symbol",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 185,
+            "name": "symbol"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "granularity",
+          "nameInDart": "granularity",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 222,
+            "name": "granularity"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": false,
+          "nameInSql": "open_time",
+          "nameInDart": "openTime",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 268,
+            "name": "openTime"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "open",
+          "nameInDart": "open",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 311,
+            "name": "open"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "high",
+          "nameInDart": "high",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 346,
+            "name": "high"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "low",
+          "nameInDart": "low",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 381,
+            "name": "low"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "close",
+          "nameInDart": "close",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 415,
+            "name": "close"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "volume",
+          "nameInDart": "volume",
+          "declaration": {
+            "source_uri": "package:quantai/core/storage/tables/candles_table.dart",
+            "offset": 451,
+            "name": "volume"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        }
+      ],
+      "existing_data_class": null,
+      "table_constraints": [
+        {
+          "type": "unique",
+          "columns": [
+            "symbol",
+            "granularity",
+            "open_time"
+          ]
+        }
+      ],
+      "custom_parent_class": null,
+      "interfaces_for_row_class": [],
+      "fixed_entity_info_name": null,
+      "base_dart_name": "CandlesTable",
+      "row_class_name": "CandlesTableData",
+      "companion_class_name": null,
+      "without_rowid": false,
+      "strict": false,
+      "write_default_constraints": true,
+      "custom_constraints": [],
+      "attached_indices": []
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart"
+  ]
+}

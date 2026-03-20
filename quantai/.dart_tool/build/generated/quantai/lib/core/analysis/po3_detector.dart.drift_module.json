@@ -1,0 +1,7 @@
+{
+  "elements": {},
+  "imports": [
+    "package:quantai/models/candle.dart",
+    "package:quantai/core/utils/candle_utils.dart"
+  ]
+}

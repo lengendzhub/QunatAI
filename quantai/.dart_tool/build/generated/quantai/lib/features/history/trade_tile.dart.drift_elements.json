@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:flutter/material.dart","transitive":false},{"uri":"package:quantai/models/trade.dart","transitive":false},{"uri":"package:quantai/shared/widgets/liquid_glass_card.dart","transitive":false}],"elements":[]}

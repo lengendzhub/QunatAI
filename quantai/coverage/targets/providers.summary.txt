@@ -1,0 +1,6 @@
+Target: providers
+Pattern: ^SF:.*lib/providers/
+Lines Found (LF): 14
+Lines Hit (LH): 7
+Coverage: 50.00%
+Output: coverage/targets/providers.lcov.info

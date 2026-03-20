@@ -1,0 +1,7 @@
+{
+  "elements": {},
+  "imports": [
+    "package:drift/drift.dart",
+    "package:quantai/core/storage/database.dart"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:quantai/core/ai/onnx_engine.dart",
+    "package:quantai/core/broker/base_broker.dart",
+    "package:quantai/core/broker/deriv_broker.dart",
+    "package:quantai/core/notifications/notification_service.dart"
+  ]
+}

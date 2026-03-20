@@ -1,0 +1,13 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:quantai/core/execution/execution_engine.dart",
+    "package:quantai/models/execution_result.dart",
+    "package:quantai/models/proposal.dart",
+    "package:quantai/providers/broker_provider.dart",
+    "package:quantai/providers/proposals_provider.dart",
+    "package:quantai/providers/risk_provider.dart",
+    "package:quantai/providers/trades_provider.dart"
+  ]
+}

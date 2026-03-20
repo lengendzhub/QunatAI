@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_test/flutter_test.dart",
+    "package:quantai/core/analysis/session_detector.dart",
+    "package:quantai/core/risk/position_sizer.dart",
+    "package:quantai/models/market_regime.dart"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:uuid/uuid.dart",
+    "package:quantai/core/ai/feature_builder.dart",
+    "package:quantai/core/ai/model_config.dart",
+    "package:quantai/core/analysis/ict_engine.dart",
+    "package:quantai/models/analysis_result.dart",
+    "package:quantai/models/market_regime.dart",
+    "package:quantai/models/proposal.dart",
+    "package:quantai/providers/broker_provider.dart",
+    "package:quantai/providers/candles_provider.dart"
+  ]
+}

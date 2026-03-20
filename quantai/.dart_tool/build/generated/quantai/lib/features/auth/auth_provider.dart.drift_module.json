@@ -1,0 +1,8 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:quantai/providers/broker_provider.dart",
+    "package:quantai/providers/settings_provider.dart"
+  ]
+}

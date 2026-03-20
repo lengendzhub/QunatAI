@@ -1,0 +1,17 @@
+{
+  "elements": {},
+  "imports": [
+    "package:quantai/models/candle.dart",
+    "package:quantai/models/ict_features.dart",
+    "package:quantai/core/utils/math_utils.dart",
+    "package:quantai/core/analysis/fair_value_gap.dart",
+    "package:quantai/core/analysis/fibonacci.dart",
+    "package:quantai/core/analysis/liquidity_sweep.dart",
+    "package:quantai/core/analysis/market_structure.dart",
+    "package:quantai/core/analysis/order_block.dart",
+    "package:quantai/core/analysis/ote_calculator.dart",
+    "package:quantai/core/analysis/po3_detector.dart",
+    "package:quantai/core/analysis/regime_detector.dart",
+    "package:quantai/core/analysis/session_detector.dart"
+  ]
+}

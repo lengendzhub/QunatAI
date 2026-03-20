@@ -1,0 +1,6 @@
+Target: broker
+Pattern: ^SF:.*lib/core/broker/
+Lines Found (LF): 219
+Lines Hit (LH): 18
+Coverage: 8.22%
+Output: coverage/targets/broker.lcov.info

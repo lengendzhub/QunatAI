@@ -1,0 +1,16 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:quantai/models/proposal.dart",
+    "package:quantai/providers/execution_provider.dart",
+    "package:quantai/providers/proposals_provider.dart",
+    "package:quantai/shared/widgets/confidence_ring.dart",
+    "package:quantai/shared/widgets/direction_badge.dart",
+    "package:quantai/shared/widgets/liquid_glass_card.dart",
+    "package:quantai/shared/widgets/price_ladder.dart",
+    "package:quantai/shared/widgets/regime_chip.dart",
+    "package:quantai/shared/widgets/spring_button.dart"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter/services.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:logging/logging.dart",
+    "package:quantai/app.dart",
+    "package:quantai/core/ai/onnx_engine.dart",
+    "package:quantai/core/notifications/notification_service.dart",
+    "package:quantai/providers/broker_provider.dart"
+  ]
+}
